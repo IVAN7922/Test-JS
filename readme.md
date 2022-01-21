@@ -1,8 +1,7 @@
-
-
 ## Используемые технологии
 
 * HTML
 
-* CSS (Bootstrap)
+* CSS 
 
+* Jawa Script
