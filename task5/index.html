@@ -8,18 +8,35 @@
 </head>
 
 <body>
-    <form action="#">
-        <label>
-            Текст
-            <input type="text" id="Text" placeholder="Введите текст">
-        </label>
-        <button type="submit">
-            Вывести текст в консоль и удалить из формы
-        </button>
-    </form>
-    <hr>
-    <p>Введенный текст:</p>
-    <p id="duplicateField"></p>
+
+<header>
+    <div class="header">
+        <div class="title">
+            Практическая работа 6.8<br>
+            <span>Задача №5: "Перехват формы"</span><br>
+        </div>
+        <div class="back">
+            <a href="../index.html">На главную страницу</a>
+        </div>
+    </div>
+</header>
+
+<section class="main-section">
+    <div class="task">
+        <form action="#">
+            <label>
+                Текст
+                <input id="Field" type="text" placeholder="Введите текст">
+            </label>
+            <button id="clear_Field" type="button">
+                Вывести текст в консоль и удалить из формы
+            </button>
+        </form>
+        <p>Введенный текст:</p>
+        <p id="duplicateField"></p>
+    </div>
+</section>
+
     <script src="script.js"></script>
 </body>
 

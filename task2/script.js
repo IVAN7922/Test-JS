@@ -1,10 +1,10 @@
 document.querySelector('#consoleLog').addEventListener('click', () => {
-    alert('Служит для вывода информации в консоль');
+    alert('Данная команда служит для вывода информации в консоль');
     console.log('Это простое сообщение, выведенное в консоль');
 })
 
 document.querySelector('#alert').addEventListener('click', () => {
-    alert('Служит для вывода сообщения на экран');
+    alert('Эта команда служит для вывода сообщения на экран');
 })
 
 document.querySelector('#prompt').addEventListener('click', () => {
